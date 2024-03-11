@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="quiz-conteiner">
+    <div class="quiz-container">
         <h1>Quiz de perguntas e respostas</h1>
         <div id="pergunta"></div>
         <div id="opcoes"></div>
@@ -79,6 +79,7 @@
             }
 
             indicePerguntaAtual++;
+            
             if (indicePerguntaAtual < perguntas.length) {
                 setTimeout(carregarPergunta, 2000);
             } else {
@@ -87,6 +88,12 @@
             }
         }
 
+        carregarPergunta()
+
+    </script>
+
+</body>
+</html>
     </script>
 
 </body>
